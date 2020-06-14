@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* cClors */
+/* colors */
 :root {
     --primary: #857070;
     --secondary: #6E7A56;
@@ -119,20 +119,20 @@ header nav ul li a:hover {
 .about p {
     color: var(--tertiary);
     text-align: left;
-    width: 60%;
+    width: 65%;
     margin: 20px;
     position: relative;
 }
 
 .profile-img {
-    max-width:230px;
+    max-width: 220px;
     width: auto;
     height: auto;
     background-size: contain;
     right: 0;
     position: absolute;
     display: flex;
-    padding: 15px;
+    padding: 0;
     margin-right: 7%;
     margin-bottom: 7%;
     align-items: flex-end;
@@ -181,7 +181,6 @@ header nav ul li a:hover {
     background-color: var(--primary);
     padding: 5px;
   }
-
 
 /* Contact Me Style Section */
 .contact {
