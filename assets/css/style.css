@@ -89,7 +89,7 @@ header nav ul li a:hover {
 
 /* About Me Style Section */
 
-.section {
+.info {
   margin: 25px 0;
   padding: 80px;
   display: flex;
@@ -98,7 +98,7 @@ header nav ul li a:hover {
   align-items: stretch;
   justify-content: space-between;
 }
-.section h2 {
+.info h2 {
     font-size: 4vw;
     flex: 0 0 20%;
     line-height: 1.5;
@@ -109,7 +109,7 @@ header nav ul li a:hover {
     color: rgb(17,115,91, .75);
     width: 20%
 }
-.section div {
+.info div {
     flex: 0 0 78%;
 }
 .about {
@@ -117,17 +117,18 @@ header nav ul li a:hover {
 }
 
 .about p {
-    color: var(--darker);
+    color: var(--tertiary);
     text-align: left;
     width: 60%;
     margin: 20px;
+    position: relative;
 }
 
 .profile-img {
-    max-width: 20%;
-    min-width: 20%;
-    min-height: 300px;
-    background-size: cover;
+    max-width:230px;
+    width: auto;
+    height: auto;
+    background-size: contain;
     right: 0;
     position: absolute;
     display: flex;
@@ -223,13 +224,6 @@ footer h2 {
     width: 100%;
     margin: 0;
 }
-footer div {
-    line-height: 1.5;
-    text-align: center;
-}
-footer a {
-    color: var(--darker);
-}
   /* Portfolio Images  */
 
 .horiseon {
@@ -282,15 +276,6 @@ footer a {
        font-weight: lighter;
        width: 80%;
    }
-   .profile-img {
-    max-width: 30%;
-    min-width: 30%;
-    min-height: 300px;
-    margin-right: 0;
-    width: 80%
-   }
-   
-}
 
 /* Media Query for Tablets and Smaller */
 @media screen and (max-width: 768px) {
@@ -311,12 +296,12 @@ footer a {
     footer h2 {
         font-size: 1.2rem
     }
-    .section {
+    .info {
         text-align: center;
         justify-content: center;
         width: 100%
     }
-    .section h2 {
+    .info h2 {
         font-size: 5vw;
         border-right: none;
         width: 100%;
@@ -324,11 +309,10 @@ footer a {
         flex: auto;
     }
     .about p {
-        width: 800%;
+        width: 100%;
     }
     .profile-img {
-        max-width: 0;
-        min-width: 0;
+        position: relative;
     }
 }
 
