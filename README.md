@@ -8,7 +8,7 @@ A portfolio that provides information about me and showcases my work.
 * CSS
 
 ## Website
-
+https://mallynnk.github.io/portfolio/
 
 ## Contribution
 Mallory Korpics
