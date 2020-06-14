@@ -127,6 +127,7 @@ header nav ul li a:hover {
 
 .profile-img {
     max-width: 220px;
+    max-height: 300px;
     width: auto;
     height: auto;
     background-size: contain;
