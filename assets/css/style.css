@@ -15,6 +15,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 /* Header Style Section */
+
 header {
     padding: 10px;
     background-color: var(--secondary);
@@ -52,6 +53,12 @@ header nav ul li a {
     font-size: 2vw;
     line-height: 2;
 }
+
+header nav ul li a:hover {
+    color: var(--darker);
+  }
+ 
+
 /* Hero Style Section */
 .hero {
     background-image: url("../images/plant.jpg");
@@ -81,6 +88,7 @@ header nav ul li a {
 }
 
 /* About Me Style Section */
+
 .section {
   margin: 25px 0;
   padding: 80px;
@@ -106,15 +114,31 @@ header nav ul li a {
 }
 .about {
     background: rgb(133,112,112, .25);
+    overflow: auto;
 }
 
 .about p {
     color: var(--darker);
     text-align: left;
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
- 
+
+/* .prof {
+    width: 170px;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    object-position: right;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: flex-end;
+    background-image: url("../images/me.jpg");
+}  */
 
 /* Portfolio Grid Section  */
 .work-samples {
@@ -149,13 +173,15 @@ header nav ul li a {
     grid-row: span 2;
 }
 .grid-item:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    background-blend-mode: soft-light;
   }
 
 .grid-item div {
     background-color: var(--primary);
     padding: 5px;
   }
+
 
 /* Contact Me Style Section */
 .contact {
@@ -179,6 +205,10 @@ header nav ul li a {
     text-align: left;
     margin: 0 auto; 
 }
+
+.contact address a:hover {
+    color: var(--darker);
+  }
   
 /* Footer Style Section */
 footer {
