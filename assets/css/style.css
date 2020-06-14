@@ -3,19 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* colors */
+body {
+    color: var(--primary);
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* COLOR GUIDE */
 :root {
     --primary: #857070;
     --secondary: #6E7A56;
     --tertiary: #92533E;
     --darker: #11735B;
 }
-body {
-    color: var(--primary);
-    font-family: Helvetica, Arial, sans-serif;
-}
-/* Header Style Section */
 
+/* HEADER STYLE SECTION */
 header {
     padding: 10px;
     background-color: var(--secondary);
@@ -59,7 +59,7 @@ header nav ul li a:hover {
   }
  
 
-/* Hero Style Section */
+/* HERO STYLE SECTION */
 .hero {
     background-image: url("../images/plant.jpg");
     background-size: cover;
@@ -87,31 +87,32 @@ header nav ul li a:hover {
     font-weight: lighter;
 }
 
-/* About Me Style Section */
-
+/* STYLES FOR ALL SECTIONS */
 .info {
-  margin: 25px 0;
-  padding: 80px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.info h2 {
-    font-size: 4vw;
-    flex: 0 0 20%;
-    line-height: 1.5;
-    border-right: 1px solid;
-    text-align: right;
-    padding-right: 40px;
-    font-weight: lighter;
-    color: rgb(17,115,91, .75);
-    width: 20%
-}
-.info div {
-    flex: 0 0 78%;
-}
+    margin: 25px 0;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .info h2 {
+      font-size: 4vw;
+      flex: 0 0 20%;
+      line-height: 1.5;
+      border-right: 1px solid;
+      text-align: right;
+      padding-right: 40px;
+      font-weight: lighter;
+      color: rgb(17,115,91, .75);
+      width: 20%
+  }
+  .info div {
+      flex: 0 0 78%;
+  }
+
+/* ABOUT ME STYLE SECTION */
 .about {
     background: rgb(133,112,112, .25);
 }
@@ -132,15 +133,16 @@ header nav ul li a:hover {
     right: 0;
     position: absolute;
     display: flex;
-    padding: 0;
+    padding: 15px;
     margin-right: 7%;
-    margin-bottom: 7%;
     align-items: flex-end;
     z-index: -1;
 }
+.prof {
+    display: contents;
+}
 
-
-/* Portfolio Grid Section  */
+/* PORTFOLIO STYLE SECTION  */
 .work-samples {
    background: rgb(235,200,178, .5);
 }
@@ -182,7 +184,7 @@ header nav ul li a:hover {
     padding: 5px;
   }
 
-/* Contact Me Style Section */
+/* CONTACT ME STYLE SECTION */
 .contact {
     background:  rgb(133,112,112, .25);
 }
@@ -209,7 +211,7 @@ header nav ul li a:hover {
     color: var(--darker);
   }
   
-/* Footer Style Section */
+/* FOOTER STYLE SECTION */
 footer {
     background: rgb(133,112,112, .25);
     width: 100%;
@@ -223,8 +225,8 @@ footer h2 {
     width: 100%;
     margin: 0;
 }
-  /* Portfolio Images  */
 
+  /* IMAGES  */
 .horiseon {
     background-image: url("../images/horiseon.jpg");
   }
@@ -246,7 +248,6 @@ footer h2 {
 }
 
 /* Media Query for Desktop Screens and Smaller */
-
 @media screen and (max-width: 980px) {
     header {
       padding: 0;
