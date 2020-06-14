@@ -114,31 +114,30 @@ header nav ul li a:hover {
 }
 .about {
     background: rgb(133,112,112, .25);
-    overflow: auto;
 }
 
 .about p {
     color: var(--darker);
     text-align: left;
-    width: 80%;
-    margin: 0 auto;
+    width: 60%;
+    margin: 20px;
 }
 
-/* .prof {
-    width: 170px;
-    height: 300px;
-    position: absolute;
-    top: 80px;
-    right: 0;
-    object-position: right;
+.profile-img {
+    max-width: 20%;
+    min-width: 20%;
+    min-height: 300px;
     background-size: cover;
+    right: 0;
+    position: absolute;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding: 15px;
+    margin-right: 7%;
+    margin-bottom: 7%;
     align-items: flex-end;
-    background-image: url("../images/me.jpg");
-}  */
+    z-index: -1;
+}
+
 
 /* Portfolio Grid Section  */
 .work-samples {
@@ -283,6 +282,15 @@ footer a {
        font-weight: lighter;
        width: 80%;
    }
+   .profile-img {
+    max-width: 30%;
+    min-width: 30%;
+    min-height: 300px;
+    margin-right: 0;
+    width: 80%
+   }
+   
+}
 
 /* Media Query for Tablets and Smaller */
 @media screen and (max-width: 768px) {
@@ -303,5 +311,26 @@ footer a {
     footer h2 {
         font-size: 1.2rem
     }
+    .section {
+        text-align: center;
+        justify-content: center;
+        width: 100%
+    }
+    .section h2 {
+        font-size: 5vw;
+        border-right: none;
+        width: 100%;
+        text-align: center;
+        flex: auto;
+    }
+    .about p {
+        width: 800%;
+    }
+    .profile-img {
+        max-width: 0;
+        min-width: 0;
+    }
 }
+
+
 
