@@ -307,19 +307,19 @@ footer h2 {
         width: 100%
     }
     .info h2 {
-        font-size: 5vw;
+        font-size: 10vw;
         border-right: none;
-        width: 100%;
+        width: auto;
+        padding-left: 25px;
         text-align: center;
         flex: auto;
+        justify-content: center;
     }
     .about p {
-        width: 100%;
+        width: auto;
+        display: inline-flex;
     }
     .profile-img {
         position: relative;
     }
 }
-
-
-
