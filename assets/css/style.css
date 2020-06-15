@@ -285,6 +285,10 @@ footer h2 {
     }
     .grid-item, grid-item:first-child {
         grid-column: 1 / -1;
+        background-size: cover;
+    }
+    .grid-item:first-child {
+        width: 150%
     }
     .contact address {
         flex-direction: row;
