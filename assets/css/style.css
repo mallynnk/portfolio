@@ -316,10 +316,19 @@ footer h2 {
         justify-content: center;
     }
     .about p {
-        width: auto;
+        width: 100%;
         display: inline-flex;
     }
     .profile-img {
         position: relative;
+    }
+
+    header {
+        background-size: cover;
+        background-position: unset;
+    }
+    .hero {
+        background-size: cover;
+        background-position: unset;
     }
 }
