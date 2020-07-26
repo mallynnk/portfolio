@@ -230,8 +230,13 @@ footer h2 {
   /* IMAGES  */
 .horiseon {
     background-image: url("../images/horiseon.jpg");
+    background-size: cover;
   }
   
+.news {
+    background-image: url("../images/news.jpg");
+    background-size: cover;
+}  
 .portfolio-1 {
     background-image: url("../images/portfolio-1.jpg");
   }
