@@ -152,9 +152,10 @@ header nav ul li a:hover {
     column-gap: 10px;
     row-gap: 10px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template rows: minmax(150px, 1fr);
+    grid-template-rows: minmax(150px, 1fr);
     grid-auto-flow: dense;
 }
+
 .grid-item {
     border: 5px solid var(--primary);
     grid-column: span 4;
@@ -237,12 +238,12 @@ footer h2 {
     background-image: url("../images/news.jpg");
     background-size: cover;
 }  
+.askFather {
+    background-image: url("../images/askFather.jpg");
+    background-size: cover;
+  }
 .portfolio-1 {
     background-image: url("../images/portfolio-1.jpg");
-  }
-  
-.portfolio-2 {
-    background-image: url("../images/portfolio-2.jpg");
   }
   
 .portfolio-3 {
@@ -273,15 +274,17 @@ footer h2 {
     header nav ul li a {
         font-size: 20px;
     }
-    header nav a: {
-    background-size: 100% 100%;
+    header nav a {
+    background-size: 100%;
     color: var(--primary);
    }
+
    .contact address a {
        font-size: 1.2rem;
        font-weight: lighter;
        width: 80%;
    }
+}
 
 /* Media Query for Tablets and Smaller */
 @media screen and (max-width: 768px) {
